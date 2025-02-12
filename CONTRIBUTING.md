@@ -63,11 +63,12 @@ requirements.
 
 ### Pull Request guidelines
 
+* Your commit should contain a brief summary of reasoning behind a change and the change itself
 * Aim at making the specs pass for each individual commit
 * Each individual commit should make sense by itself and optimized for review
 * Breaking up a large change into smaller (coherent) commits is encouraged
 * If you're still working on the pull-request please keep it in "Draft" mode
-* Ask for another review after addressing comments from a previous one
+* If you change interfaces such as Admin or Frontend provide i18 translations for strings and labels
 
 #### Document your changes
 
