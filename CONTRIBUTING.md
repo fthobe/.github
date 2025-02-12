@@ -65,6 +65,8 @@ requirements.
 
 * Aim at making the specs pass for each individual commit
 * Each individual commit should make sense by itself and optimized for review
+* Commits should be approprietly documented, this is **includes a brief summary of why something was changed** and the most important **changes in this commit**
+* Solidus is a multi-language application, any interface change should be accompanied by proper addition of strings in the respective language files
 * Breaking up a large change into smaller (coherent) commits is encouraged
 * If you're still working on the pull-request please keep it in "Draft" mode
 * Ask for another review after addressing comments from a previous one
